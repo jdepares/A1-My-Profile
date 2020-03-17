@@ -116,7 +116,7 @@ font-size: 15px"
 <img src="DISC.png"
 alt="DISC"
 width="600"
-height="400"
+height="280"
 vertical-align: baseline>
 
 <p6 style="
@@ -126,7 +126,49 @@ margin: 0;"
 ><br><br>The results don’t come at a surprise being an analytic introverted person. However, they do hold quite large value to me. They show me that I need to be conscious of my own work patterns and how they can affect other stakeholders in a business, group or project. From an education perspective they reinforce my prior knowledge that I’m a hands-on learner and need to ensure when I’m studying to practice with projects. <br> <br>
 When working with a team, I need to be mindful that others may be frustrated when presented with large amounts of data and analytics. To ensure when I’m working with others I present and communicate in a clear, defined and accurate manner to ensure others are not lost in the details. Working with wider approach and segmenting larger projects. <br> <br>
 When given the opportunity to select a team the results have shown me, I work well with largely analytical and detail minded individuals. Working on large scale complex projects with logical and objective teams would look to present the best outcome overall. I should also aim however to step outside my comfort zone and work with teams and individuals whom may be very different to myself to diversify and grow my stakeholder engagement abilities.
-</p6>
+<br><br></p6>
+
+<hr>
+
+<h10 style="
+color: #f0e7d5;
+padding: 10px;
+margin: 0;
+font-size: 35px"
+
+>Project Idea</h10>
+
+<p10 style="
+color: #f0e7d5;
+ALIGN="";
+margin: 0;"
+><br><br>I would like to explore the idea of integrating multiple different standards of wireless, short range communication technology into smart phones. The two main protocols I would like to initially work on are NFC and RFID. Currently many smart phones can communicate with NFC, however, are not compatible with RFID. As the world moves more and more away from physical cards this becomes a boundary to entry. Some examples of current RFID technology are building passes, asset management, keyless entry cars, etc. Allowing for generic RFID devices to interact with smart phones would allow users not to carry around car keys, building passes and so forth, limiting the total amount of waste we contribute and increasing convenience for the users. <br><br>
+The motivation for this project is on two fronts. Firstly convenience, currently it’s almost unnecessary to carry around anything but your phone. License, Medicare, and F-Post cards have all moved to interfacing with a smart phone. Overall this is great as it means there is less to carry and respectively less items that can be misplaced. However, due to limitations with RFID users are still required to carry both a building pass and car keys which I would like to eliminate. The second motivation is waste, In the UK alone, ‘each year, over 10,000 door or car keys end up in rubbish tips’ (Hall M, 2018, parra. 1). In addition to this the waste associated with the leather industry around the creation of wallets contributes greatly to the emissions, damage to soil and groundwater (UNIDO, 2000). <br><br>
+The hardware interface difference between wireless, short range communication technology is dependent on the antenna arrays ability to accept different wavelengths. A RFID system, like one in building passes and key fobs, operates on the Gen 2 EPC protocol approved as ISO 18000-6C. This range is operating on the 860 MHz to 960 MHz range (Catherine O'Connor M 2006). NFC operates at a much lower range specifically ‘around 13.56 MHz’ (Antenna-Theory n.d, parra. 3). <br><br>
+Fortunately, we can control the frequency through the amount of current we send to an antenna array. This will allow the communication of multiple technological standards through one physics hardware layer. To do this we would need an on-board regulator built into the device, these are regularly available and heavily used in the electronics hardware industry, which will make the project economically viable to manufacture. We would, however, need to change the antenna array a static to dynamic antenna array, this, again, is preexisting technology regularly available to the market.  <br><br>
+Beyond the above, this would be the only physical hardware change. We could prototype this with an arduino controller and antenna through testing to ensure the development of the project is done in a way that is both cost effective and accurate. <br><br>
+The software would be built into the firmware controller of the solution once complete. This will allow for higher grades of security and a consistent user experience amongst all applications whilst still allowing the developers to interface with the technology. The firmware will have a range of core functions to ensure smooth operations. When sending data, firstly it must be able to quickly navigate through the wavelengths dependent on the applications requirement. To achieve this the software will control the current that the antenna receives to switch frequency range. It then must transmit the data that the application would like to send through the antenna array be it through the RFID or NFC protocol. <br><br>
+
+
+The second element to the software layer is the receiving of data. When the device is ready to receive data, the firmware will need to fluctuate the voltage at a constant rate to determine the interface protocol. Once the protocol is established be it RFID or NFC the firmware will then hold the wavelength at a constant by ensuring the current is passed through at a static rate. Following this, the application will then communicate with the firmware to allow the data to be received and decoded. This will allow for both inbound and outbound communication to be viable on a single hardware element through the two protocols NFC and RFID. <br><br>
+Through the combination of the cost-effective hardware and firmware controller this would allow for the unification of RFID and NFC under one physical hardware layer. The prototyping can be done with preexisting hardware allowing for a cost effective method to bring this project into the consumer market. <br><br>
+As mentioned above there will be both a hardware and software element to this project. The hardware necessary will be a current controller communicating with the antenna band on the device allowing it to work through all the frequencies associated with wireless, short range communication technology. The software will be a firmware layer built into the device to regulate the current based on the type of output deemed necessary by the application. This will allow developers to communicate with the hardware to ensure both RFID and NFC can be applicable through smart phones. <br><br>
+The skills required for the hardware would be an understanding of electronics and antenna arrays. There would need to be an understanding of how to implement the current control to an antenna array to regulate the output frequency and allow it to receive and send data on multiple frequencies. The second set of skills would be programing the firmware necessary to control the hardware with accuracy allowing it to move through frequencies fast and accurately.  The firmware also needs to allow application developers to communicate with the hardware easily. I believe this is a feasible idea and could be integrated into smart devices. <br><br>
+If successful, the project will allow for greater convenience to the end user, allowing for consumers to choose not to carry a wallet and have one centralized device used to access and interface with buildings, cars, payments and so forth. If this is globally adopted, we could see the complete elimination of physical building passes, credit / debit cards, car keys and even more. The environmental impact from the minimized manufacturing of both plastics and leathers would be substantial and improve global sustainability. <br><br>
+</p10>
+
+<h11 style="
+color: #f0e7d5;
+font-size: 20px"
+><i>Reference List:</i></h11>
+
+<p11 style="
+color: #f0e7d5;
+ALIGN="";
+margin: 0;"
+
+><br><br>Antenna-Theory n.d, NFC Antennas, <i>Antenna-Theory, </i> Viewed on 17 March 2020  <<p4><a href="https://www.seek.com.au/job/41109903?type=standout#searchRequestToken=7cecbacb-e35b-4d66-890e-0ca601344d25" >http://www.antenna-theory.com/definitions/nfc-antenna.php</a></p4> ><br><br>Catherine O'Connor M 2006, <i>Gen 2 EPC Protocol Approved as ISO 18000-6C, </i> RFIDjournal, Viewed on 17 March 2020 <<p4><a href="https://www.rfidjournal.com/articles/view?2481/%3futm_source=Types_of_RFID&utm_medium=Types_of_RFID_Link&utm_campaign=Content&utm_content=ISO_18000" >https://www.rfidjournal.com/articles/view?2481/%3futm_source=Types_of_RFID&utm_medium=Types_of_RFID_Link&utm_campaign=Content&utm_content=ISO_18000</a></p4> ><br><br>  Hall M, 2018, <i>Over 10,000 door and car keys end up in the tip every year, </i> Business Waste, Viewed on 17 March 2020  <<p4><a href="https://www.businesswaste.co.uk/over-10000-door-and-car-keys-end-up-in-the-tip-every-year/> " >https://www.businesswaste.co.uk/over-10000-door-and-car-keys-end-up-in-the-tip-every-year/> </a></p4> ><br><br>  UNIDO, 2000, <i>Wastes generated in the leather producs industry,</i> UNIDO, Viewed on 17 March 2020, <<p4><a href="https://leatherpanel.org/sites/default/files/publications-attachments/leather_waste_recycling1.pdf> " >https://leatherpanel.org/sites/default/files/publications-attachments/leather_waste_recycling1.pdf</a></p4> ><br><br>
+</p11>
 
 </body>
 </html>
